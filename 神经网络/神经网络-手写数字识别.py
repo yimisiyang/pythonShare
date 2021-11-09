@@ -15,7 +15,7 @@ if __name__ == '__main__':
     print(x_data.shape)
     print(y_data.shape)
 
-    plt.imshow(digits.images[100], cmap='gray')
+    plt.imshow(digits.images[0], cmap='gray')
     plt.show()
     # 分割数据1/4为测试数据，3/4为训练数据
     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data)
